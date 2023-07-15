@@ -17,28 +17,24 @@ export class PatientContr implements PatientController{
     
     public getAllPatients(req: Request, res: Response): void {
         //const Patients:Paciente[] = this.PatientServ.getAllPatients();
-        try{
-            this.PatientServ.getAllPatients().then((Patients)=>{
+        this.PatientServ.getAllPatients().then((Patients)=>{
             res.status(200).json(Patients);
-            logger.info(req.baseUrl+req.url+" HTTP STATUS: "+res.statusCode);})
-        }
-        catch(error){
+            logger.info(req.baseUrl+req.url+" HTTP STATUS: "+res.statusCode);},
+        (error)=>{
             logger.error(error);
             res.status(400).json({message:error});
-        }     
+        });     
     }
 
     public createPatient(req: Request, res: Response):void{
         const PacienteReq = req.body;
         //const PatientX:Paciente| null = this.PatientServ.createPatient(PacienteReq);
-        try{
-            this.PatientServ.createPatient(PacienteReq).then((PatientX)=>{
+        this.PatientServ.createPatient(PacienteReq).then((PatientX)=>{
             res.status(201).json(PatientX);
-            logger.info(req.baseUrl+req.url+" HTTP STATUS: "+res.statusCode);})
-        }
-        catch(error){
+            logger.info(req.baseUrl+req.url+" HTTP STATUS: "+res.statusCode);},
+        (error)=>{
             logger.error(error);
             res.status(400).json({message:error});
-        }
+        });
     }
 }

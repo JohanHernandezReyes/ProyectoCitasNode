@@ -4,7 +4,7 @@ export interface Paciente{
     apellido:string,
     identif:string,
     telefono?:number,
-    createdAt: Date
+    createdAt?: Date
 }
 
 export interface newPaciente{
@@ -12,5 +12,5 @@ export interface newPaciente{
     apellido:string,
     identif:string,
     telefono?:number,
-    createdAt: Date
+    createdAt?: Date
 }

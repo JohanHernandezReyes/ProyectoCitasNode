@@ -17,28 +17,24 @@ export class DoctorContr implements DoctorController{
     
     public getAllDoctors(req: Request, res: Response): void {
         //const Doctors:Doctor[] = this.DoctorServ.getAllDoctors();
-        try{
-            this.DoctorServ.getAllDoctors().then((Doctors)=>{
+        this.DoctorServ.getAllDoctors().then((Doctors)=>{
             res.status(200).json(Doctors);
-            logger.info(req.baseUrl+req.url + " HTTP STATUS: "+res.statusCode);})
-        }   
-        catch(error){
+            logger.info(req.baseUrl+req.url + " HTTP STATUS: "+res.statusCode);},
+        (error)=>{
             logger.error(error);
             console.log(res.status(400).json({message:error}));
-        } 
+        });
     }
 
     public createDoctor(req: Request, res: Response):void{
         const DoctorReq = req.body;
         //const DoctorX:Doctor = this.DoctorServ.createDoctor(DoctorReq);
-        try{
-            this.DoctorServ.createDoctor(DoctorReq).then((DoctorX)=>{ 
+        this.DoctorServ.createDoctor(DoctorReq).then((DoctorX)=>{ 
             res.status(201).json(DoctorX); 
-            logger.info(req.baseUrl+req.url+ " HTTP STATUS: "+res.statusCode);})
-        }
-        catch(error){
+            logger.info(req.baseUrl+req.url+ " HTTP STATUS: "+res.statusCode);},
+        (error)=>{
             logger.error(error);
             console.log(res.status(400).json({message:error}));
-        }
+        });
     }    
 }

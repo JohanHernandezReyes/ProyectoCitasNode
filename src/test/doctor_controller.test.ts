@@ -22,7 +22,7 @@ describe('DoctorContr', ()=>{
         mockres.json = jest.fn().mockReturnThis();
     })
 
-    //Probar el servicio
+    //Probar el controlador de la funcion listar
     describe('getAllDoctors', ()=>{
         it("Debe obtener los datos de todos los doctores", async()=>{
                 const doctors: Doctor[] =[
@@ -44,6 +44,34 @@ describe('DoctorContr', ()=>{
             await DoctorCont.getAllDoctors(mockreq, mockres);
 
             expect(DoctorServ.getAllDoctors).toHaveBeenCalled();
+            expect(mockres.json).toHaveBeenCalledWith({message:error});
+            expect(mockres.status).toHaveBeenCalledWith(400);
+                
+        })
+    })
+
+    //Probar el controlador de la funcion crear
+    describe('createDoctor', ()=>{
+        it("Realiza la creación de un nuevo doctor", async()=>{
+                const doctor: Doctor ={id_doctor:4, nombre:'Eduardo', apellido:'Sarmiento', especialidad:'Psicologia', consultorio: 701, correo:'edu_sarmiento523@hotmail.com'};
+                //simular el resultado esperado
+                const doctorReq:newDoctor = {nombre:'Eduardo', apellido:'Sarmiento', especialidad:'Psicologia', consultorio: 701, correo:'edu_sarmiento523@hotmail.com'};                
+                (mockreq.body as newDoctor) =  doctorReq;
+                (DoctorServ.createDoctor as jest.Mock).mockResolvedValue(doctor);
+                await DoctorCont.createDoctor(mockreq, mockres);
+
+                expect(DoctorServ.createDoctor).toHaveBeenCalledWith(doctorReq);
+                expect(mockres.json).toHaveBeenCalledWith(doctor);
+                expect(mockres.status).toHaveBeenCalledWith(201);
+        });
+
+        it("Debe manejar el error y retornar un status 400",async () => {
+            const error = new Error("Error al crear nuevo doctor");
+            (mockreq.body) = {};
+            (DoctorServ.createDoctor as jest.Mock).mockRejectedValue(error);
+            await DoctorCont.createDoctor(mockreq, mockres);
+
+            expect(DoctorServ.createDoctor).toHaveBeenCalledWith({});
             expect(mockres.json).toHaveBeenCalledWith({message:error});
             expect(mockres.status).toHaveBeenCalledWith(400);
                 

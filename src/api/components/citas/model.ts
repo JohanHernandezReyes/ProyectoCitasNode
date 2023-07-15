@@ -4,7 +4,7 @@ export interface Cita{
     especialidad:string,
     id_doctor:number,
     id_paciente:number,
-    createdAt: Date
+    createdAt?: Date
 }
 
 export interface newCita{
@@ -12,5 +12,5 @@ export interface newCita{
     especialidad:string,
     id_doctor:number,
     id_paciente:number,
-    createdAt: Date
+    createdAt?: Date
 }
