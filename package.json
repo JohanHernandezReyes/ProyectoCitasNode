@@ -1,0 +1,46 @@
+{
+  "name": "proyecto_citas",
+  "version": "1.0.0",
+  "description": "proyecto agendamiento de citas con node.js",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohanHernandezReyes/ProyectoCitasNode.git"
+  },
+  "keywords": [
+    "citas",
+    "agendar",
+    "node",
+    "typescript"
+  ],
+  "author": "Johan Hernandez Reyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohanHernandezReyes/ProyectoCitasNode/issues"
+  },
+  "homepage": "https://github.com/JohanHernandezReyes/ProyectoCitasNode#readme",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jest": "^29.6.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "@types/chai-http": "^4.2.0",
+    "@types/chai-spies": "^1.0.3",
+    "chai": "^4.3.7",
+    "chai-http": "^4.4.0",
+    "chai-spies": "^1.0.0",
+    "knex": "^2.5.1",
+    "knex-cli": "^1.0.2",
+    "pg": "^8.11.1",
+    "ts-node": "^10.9.1"
+  }
+}

@@ -1,0 +1,22 @@
+Categoria: info, Hora de evento:15/7/2023, 2:20:15 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:15/7/2023, 2:21:08 p. m., tag:Log de evento, mensaje:Server is listening in port 8025
+Categoria: info, Hora de evento:15/7/2023, 2:21:14 p. m., tag:Log de evento, mensaje:/api/v1/doctores/list HTTP STATUS: 200
+Categoria: info, Hora de evento:15/7/2023, 2:24:51 p. m., tag:Log de evento, mensaje:/api/v1/doctores/create HTTP STATUS: 200
+Categoria: info, Hora de evento:15/7/2023, 2:26:18 p. m., tag:Log de evento, mensaje:Server is listening in port 8025
+Categoria: info, Hora de evento:15/7/2023, 2:30:43 p. m., tag:Log de evento, mensaje:/api/v1/doctores/list HTTP STATUS: 200
+Categoria: info, Hora de evento:15/7/2023, 2:33:30 p. m., tag:Log de evento, mensaje:/api/v1/doctores/list HTTP STATUS: 200
+Categoria: info, Hora de evento:15/7/2023, 2:34:49 p. m., tag:Log de evento, mensaje:Server is listening in port 8025
+Categoria: info, Hora de evento:15/7/2023, 2:34:53 p. m., tag:Log de evento, mensaje:/api/v1/doctores/create HTTP STATUS: 200
+Categoria: info, Hora de evento:15/7/2023, 2:35:20 p. m., tag:Log de evento, mensaje:/api/v1/doctores/list HTTP STATUS: 200
+Categoria: info, Hora de evento:15/7/2023, 2:40:01 p. m., tag:Log de evento, mensaje:/api/v1/citas/list
+Categoria: info, Hora de evento:15/7/2023, 2:40:11 p. m., tag:Log de evento, mensaje:/api/v1/doctores/list HTTP STATUS: 200
+Categoria: info, Hora de evento:15/7/2023, 2:40:41 p. m., tag:Log de evento, mensaje:/api/v1/pacientes/list HTTP STATUS: 200
+Categoria: info, Hora de evento:15/7/2023, 3:17:34 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:15/7/2023, 3:19:06 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:15/7/2023, 3:23:29 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:15/7/2023, 3:41:15 p. m., tag:Log de evento, mensaje:Server is listening in port 8025
+Categoria: info, Hora de evento:15/7/2023, 3:41:23 p. m., tag:Log de evento, mensaje:/api/v1/doctores/list HTTP STATUS: 200
+Categoria: info, Hora de evento:15/7/2023, 3:44:39 p. m., tag:Log de evento, mensaje:Server is listening in port 8025
+Categoria: info, Hora de evento:15/7/2023, 3:44:45 p. m., tag:Log de evento, mensaje:/api/v1/doctores/list HTTP STATUS: 200
+Categoria: info, Hora de evento:15/7/2023, 3:44:52 p. m., tag:Log de evento, mensaje:/api/v1/pacientes/list HTTP STATUS: 200
+Categoria: info, Hora de evento:15/7/2023, 3:45:00 p. m., tag:Log de evento, mensaje:/api/v1/doctores/list HTTP STATUS: 304
