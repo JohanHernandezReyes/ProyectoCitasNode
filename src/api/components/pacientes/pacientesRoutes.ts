@@ -9,8 +9,10 @@ const pacienteRepo = new PacienteRepository();
 const PatientService = new PatientServiceImp(pacienteRepo);
 const PatientCont:PatientController = new PatientContr(PatientService);
 
-router.get('/list', PatientCont.getAllPatients.bind(PatientCont))
-router.post('/create', PatientCont.createPatient.bind(PatientCont))
-router.get('/:id', PatientCont.GetPatientById.bind(PatientCont))
+router.get('/list', PatientCont.getAllPatients.bind(PatientCont));
+router.post('/create', PatientCont.createPatient.bind(PatientCont));
+router.get('/:id', PatientCont.GetPatientById.bind(PatientCont));
+router.put('/:id', PatientCont.UpdatePatient.bind(PatientCont));
+router.delete('/:id', PatientCont.DeletePatient.bind(PatientCont));
 
 export default router;

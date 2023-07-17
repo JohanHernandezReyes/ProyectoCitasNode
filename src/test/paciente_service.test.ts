@@ -10,7 +10,10 @@ describe('PatientService', ()=>{
         PatientRepo = {
             queryPatients:jest.fn(),
             createPatient:jest.fn(),
-            GetPatientById:jest.fn()
+            GetPatientById:jest.fn(),
+            GetPatientByIdentif:jest.fn(),
+            UpdatePatient:jest.fn(),
+            DeletePatient:jest.fn()
         },
         PatientServ = new PatientServiceImp(PatientRepo);
     })
@@ -55,7 +58,7 @@ describe('PatientService', ()=>{
              
         });
 
-        it("Debe retornar un status 400 si falla la creación del paciente",async () => {
+        it("Debe retornar un error si falla la creación del paciente",async () => {
             const error = new Error("Error al crear nuevo paciente");
             const pacienteReq:newPaciente = {nombre:'Matias', apellido:'Hernandez', identif:'1022221924'};                
             (PatientRepo.createPatient as jest.Mock).mockRejectedValue(error);
@@ -76,7 +79,7 @@ describe('PatientService', ()=>{
             expect(result).toEqual(paciente); 
         });
 
-        it("Debe retornar un status 400 si no encuentra el Id", async () => {
+        it("Debe retornar un error si no encuentra el Id", async () => {
             const error = new Error("Error al consultar el paciente especificado");
             (PatientRepo.GetPatientById as jest.Mock).mockRejectedValue(error);
             await expect(PatientServ.GetPatientById(2)).rejects.toThrowError(error);
@@ -88,6 +91,37 @@ describe('PatientService', ()=>{
             const result = await PatientServ.GetPatientById(2);
             expect(PatientRepo.GetPatientById).toHaveBeenCalledWith(2);
             expect(result).toBeNull();
+        });
+    })
+
+    
+    //Probar el servicio de actualizar
+    describe('UpdatePatient', ()=>{
+        const pacienteupdates:Partial<Paciente> = {telefono: 7809832};
+        const paciente: Paciente = {id_paciente:2, nombre:'Matias', apellido:'Hernandez', identif:'1022221924', telefono:undefined};
+                
+        it("Actualiza la info de un paciente especifico por su Id", async()=>{
+                (PatientRepo.GetPatientById as jest.Mock).mockResolvedValue(paciente);
+                const Patientbyid = await PatientServ.GetPatientById(4);
+                expect(PatientRepo.GetPatientById).toHaveBeenCalledWith(4);
+                expect(Patientbyid).not.toBeNull();
+                
+                const PatientRes: Paciente = {id_paciente:2, nombre:'Matias', apellido:'Hernandez', identif:'1022221924', telefono:7809832};;
+                (PatientRepo.UpdatePatient as jest.Mock).mockResolvedValue(paciente);
+                const result = await PatientServ.UpdatePatient(4, pacienteupdates);
+                expect(PatientRepo.UpdatePatient).toHaveBeenCalledWith(4, pacienteupdates);
+                expect({...paciente, ...result}).toEqual(PatientRes);             
+        });
+
+        it("Debe retornar un error si falla la actualizacion", async () => {
+            (PatientRepo.GetPatientById as jest.Mock).mockResolvedValue(paciente);
+            const Patientbyid = await PatientServ.GetPatientById(4);
+            expect(PatientRepo.GetPatientById).toHaveBeenCalledWith(4);
+            expect(Patientbyid).not.toBeNull();
+
+            const error = new Error("Error actualizando información");
+            (PatientRepo.UpdatePatient as jest.Mock).mockRejectedValue(error);
+            await (expect(PatientRepo.UpdatePatient(4, pacienteupdates))).rejects.toThrowError(error);
         });
     })
 

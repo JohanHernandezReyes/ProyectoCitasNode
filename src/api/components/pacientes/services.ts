@@ -1,4 +1,4 @@
-import { PatientCreationError, RecordNotFoundError } from '../../../config/customErrors';
+import { DeleteInfoError, PatientCreationError, RecordNotFoundError, UpdateInfoError } from '../../../config/customErrors';
 import {Paciente, newPaciente} from './model';
 import { PacienteRepository } from './repository';
 
@@ -9,6 +9,8 @@ export interface PatientService{
     createPatient(patientReq:newPaciente):Promise<Paciente>;
 
     GetPatientById(id:number):Promise<Paciente>;
+    UpdatePatient(id:number, updates:Partial<newPaciente>):Promise<Paciente>;
+    DeletePatient(id:number):Promise<void>;
 }
 
 export class PatientServiceImp implements PatientService{
@@ -65,4 +67,31 @@ export class PatientServiceImp implements PatientService{
         }
     } 
 
+    public async UpdatePatient(id:number, updates:Partial<newPaciente>):Promise<Paciente>{
+        try{
+            const ExistPatient:Promise<Paciente> = this.patientRepository.GetPatientById(id);
+            if(!ExistPatient){
+                throw new RecordNotFoundError("No existe el Id en la base de datos");
+            }else{
+                const updatedPatient = {...ExistPatient, ...updates};
+                this.patientRepository.UpdatePatient(id, updatedPatient);
+                return updatedPatient;
+            }    
+        }catch(error){
+            throw new UpdateInfoError(`${error}`);
+        }
+    } 
+
+    public async DeletePatient(id:number):Promise<void>{
+        try{
+            const ExistPatient:Promise<Paciente> = this.patientRepository.GetPatientById(id);
+            if(!ExistPatient){
+                throw new RecordNotFoundError("No existe el Id en la base de datos");
+            }else{
+                this.patientRepository.DeletePatient(id);
+            }    
+        }catch(error){
+            throw new DeleteInfoError(`${error}`);
+        }
+    } 
 }

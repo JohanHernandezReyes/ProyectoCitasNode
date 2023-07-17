@@ -3,7 +3,7 @@ import { DoctorService, DoctorServiceImp } from './../api/components/doctores/se
 import { doctorRepository } from './../api/components/doctores/repository';
 import {Request, Response} from 'express';
 import { Doctor, newDoctor } from '../api/components/doctores/model';
-import { DoctorCreationError, DoctorGetAllError, RecordNotFoundError } from '../config/customErrors';
+import { DoctorCreationError, DoctorGetAllError, RecordNotFoundError, UpdateInfoError } from '../config/customErrors';
 
 //Mocking Express Request y Response
 const mockreq = {} as Request;
@@ -17,7 +17,9 @@ describe('DoctorContr', ()=>{
         DoctorServ = {
             getAllDoctors:jest.fn(),
             createDoctor:jest.fn(),
-            GetDoctorById:jest.fn()
+            GetDoctorById:jest.fn(),
+            UpdateDoctor:jest.fn(),
+            DeleteDoctor:jest.fn()
         },
         DoctorCont = new DoctorContr(DoctorServ);
         mockres.status = jest.fn().mockReturnThis();
@@ -105,5 +107,48 @@ describe('DoctorContr', ()=>{
             expect(mockres.status).toHaveBeenCalledWith(400);
                 
         })
+    })
+
+
+    //Probar el controlador de la funcion actualizar
+    describe('UpdateDoctor', ()=>{
+        it("Actualiza la info de un doctor especifico por su Id", async()=>{
+                const doctor: Doctor ={id_doctor:4, nombre:'Eduardo', apellido:'Sarmiento', especialidad:'Psicologia', consultorio: 701, correo:'edu_sarmiento523@hotmail.com'};
+                (mockreq.params) = {id:"4"};
+                (DoctorServ.UpdateDoctor as jest.Mock).mockResolvedValue(doctor);
+                await DoctorCont.UpdateDoctor(mockreq, mockres);
+
+                expect(DoctorServ.UpdateDoctor).toHaveBeenCalledWith(4, {});
+                expect(mockres.json).toHaveBeenCalledWith(doctor);
+                expect(mockres.status).toHaveBeenCalledWith(200);
+        });
+
+        it("Debe manejar el error y retornar un status 400 si no encuentra el Id",async () => {
+            const error = new RecordNotFoundError("No existe id en la base de datos");
+            (mockreq.params) = {id:"4"};
+            (DoctorServ.UpdateDoctor as jest.Mock).mockResolvedValue(null);
+            (DoctorServ.UpdateDoctor as jest.Mock).mockRejectedValue(error);
+            await DoctorCont.UpdateDoctor(mockreq, mockres);
+
+            expect(DoctorServ.UpdateDoctor).toHaveBeenCalledWith(4, {});
+            expect(mockres.json).toHaveBeenCalledWith({error_name:error.name, message:error.message});
+            expect(mockres.status).toHaveBeenCalledWith(400);
+                
+        });
+
+        it("Debe retornar un status 400 si hay un error de actualización",async () => {
+            const error = new UpdateInfoError("Error actualizando información");
+            (mockreq.body) = {};
+            (DoctorServ.UpdateDoctor as jest.Mock).mockResolvedValue(null);
+            (DoctorServ.UpdateDoctor as jest.Mock).mockRejectedValue(error);
+            await DoctorCont.UpdateDoctor(mockreq, mockres);
+
+            expect(DoctorServ.UpdateDoctor).toHaveBeenCalledWith(4,{});
+            expect(mockres.json).toHaveBeenCalledWith({error_name:error.name, message:error.message});
+            expect(mockres.status).toHaveBeenCalledWith(400);
+                
+        });
+        
+        
     })
 })

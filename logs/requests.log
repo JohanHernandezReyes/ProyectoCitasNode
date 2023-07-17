@@ -479,3 +479,1016 @@ Categoria: info, Hora de evento:16/7/2023, 9:44:11 p. m., tag:Log de evento, me
 Categoria: error, Hora de evento:16/7/2023, 9:44:11 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
 Categoria: info, Hora de evento:16/7/2023, 9:44:11 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
 Categoria: error, Hora de evento:16/7/2023, 9:44:11 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:16/7/2023, 10:13:30 p. m., tag:Log de evento, mensaje:/api/v1/pacientes/list HTTP STATUS: 304
+Categoria: info, Hora de evento:16/7/2023, 10:14:04 p. m., tag:Log de evento, mensaje:/api/v1/doctores/1 HTTP STATUS: 304
+Categoria: info, Hora de evento:16/7/2023, 10:15:36 p. m., tag:Log de evento, mensaje:/api/v1/citas/list HTTP STATUS: 304
+Categoria: info, Hora de evento:16/7/2023, 10:15:44 p. m., tag:Log de evento, mensaje:/api/v1/pacientes/list HTTP STATUS: 304
+Categoria: info, Hora de evento:16/7/2023, 10:16:43 p. m., tag:Log de evento, mensaje:Server is listening in port 8025
+Categoria: info, Hora de evento:16/7/2023, 10:16:46 p. m., tag:Log de evento, mensaje:/api/v1/pacientes/1 HTTP STATUS: 200
+Categoria: info, Hora de evento:16/7/2023, 10:16:55 p. m., tag:Log de evento, mensaje:/api/v1/citas/1 HTTP STATUS: 200
+Categoria: info, Hora de evento:16/7/2023, 10:16:57 p. m., tag:Log de evento, mensaje:/api/v1/pacientes/list HTTP STATUS: 304
+Categoria: info, Hora de evento:16/7/2023, 10:17:11 p. m., tag:Log de evento, mensaje:/api/v1/doctores/list HTTP STATUS: 304
+Categoria: info, Hora de evento:16/7/2023, 10:18:57 p. m., tag:Log de evento, mensaje:/api/v1/doctores/4 HTTP STATUS: 200
+Categoria: info, Hora de evento:16/7/2023, 10:19:22 p. m., tag:Log de evento, mensaje:/api/v1/doctores/4 HTTP STATUS: 200
+Categoria: info, Hora de evento:16/7/2023, 10:21:43 p. m., tag:Log de evento, mensaje:/api/v1/doctores/4 HTTP STATUS: 200
+Categoria: info, Hora de evento:16/7/2023, 10:21:48 p. m., tag:Log de evento, mensaje:/api/v1/doctores/4 HTTP STATUS: 200
+Categoria: info, Hora de evento:16/7/2023, 10:32:39 p. m., tag:Log de evento, mensaje:Server is listening in port 8025
+Categoria: info, Hora de evento:16/7/2023, 10:32:43 p. m., tag:Log de evento, mensaje:/api/v1/doctores/5 HTTP STATUS: 200
+Categoria: info, Hora de evento:16/7/2023, 10:33:05 p. m., tag:Log de evento, mensaje:/api/v1/doctores/list HTTP STATUS: 200
+Categoria: info, Hora de evento:16/7/2023, 11:05:26 p. m., tag:Log de evento, mensaje:Server is listening in port 8025
+Categoria: info, Hora de evento:17/7/2023, 10:08:08 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:08:08 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 10:08:08 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:08:08 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 10:08:08 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:08:08 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 10:08:08 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:08:08 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 10:08:08 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:08:08 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 10:08:08 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:08:08 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 10:08:10 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:08:10 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 10:08:10 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:08:10 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 10:08:10 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:08:10 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 10:31:46 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:31:46 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 10:31:46 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:31:46 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 10:31:46 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:31:46 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 10:31:46 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:31:46 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 10:31:46 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:31:46 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 10:31:46 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:31:46 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 10:31:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:31:47 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 10:31:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:31:47 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 10:31:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:31:47 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 10:38:59 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:17/7/2023, 10:38:59 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:38:59 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 10:38:59 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:38:59 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 10:38:59 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:38:59 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 10:39:00 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:39:00 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 10:39:00 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:39:00 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 10:39:00 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:39:00 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: error, Hora de evento:17/7/2023, 10:38:59 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 10:38:59 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:38:59 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 10:38:59 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:38:59 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 10:41:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:41:47 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 10:41:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:41:47 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 10:41:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:41:47 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 10:41:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:41:47 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 10:41:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:41:47 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 10:41:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:41:47 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 10:41:49 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:41:49 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 10:41:49 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:41:49 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 10:41:49 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:41:49 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 10:44:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:44:47 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 10:44:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:44:47 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 10:44:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:44:47 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 10:44:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:44:47 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 10:44:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:44:47 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 10:44:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:44:47 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 10:44:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:44:48 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 10:44:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:44:48 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 10:44:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:44:48 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 10:45:41 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:17/7/2023, 10:45:41 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:45:41 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 10:45:41 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:45:41 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 10:45:41 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:45:41 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: error, Hora de evento:17/7/2023, 10:45:41 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 10:45:41 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:45:41 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 10:45:41 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:45:41 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 10:45:42 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:45:42 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 10:45:42 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:45:42 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 10:45:42 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:45:42 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 10:51:26 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:51:26 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 10:51:26 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:51:26 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 10:51:26 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:51:26 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 10:51:26 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:51:26 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 10:51:26 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:51:26 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 10:51:26 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:51:26 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 10:51:27 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:51:27 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 10:51:27 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:51:27 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 10:51:27 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:51:27 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 10:53:38 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:17/7/2023, 10:53:39 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:53:39 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 10:53:39 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:53:39 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 10:53:39 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:53:39 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: error, Hora de evento:17/7/2023, 10:53:39 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 10:53:39 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:53:39 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 10:53:39 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:53:39 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 10:53:40 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:53:40 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 10:53:40 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:53:40 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 10:53:40 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:53:40 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 10:59:13 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:59:13 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 10:59:13 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:59:13 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 10:59:13 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:59:13 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 10:59:14 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:59:14 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 10:59:14 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:59:14 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 10:59:14 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:59:14 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 10:59:14 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:59:14 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 10:59:14 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:59:14 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 10:59:14 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 10:59:14 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 11:00:42 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:17/7/2023, 11:00:42 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:00:42 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 11:00:42 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:00:42 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 11:00:42 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:00:42 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 11:00:43 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:00:42 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 11:00:42 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:00:42 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 11:00:42 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:00:42 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: error, Hora de evento:17/7/2023, 11:00:43 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 11:00:43 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:00:43 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 11:00:43 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:00:43 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 11:01:29 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:01:29 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 11:01:29 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:01:29 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 11:01:29 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:01:29 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 11:01:30 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:17/7/2023, 11:01:30 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:01:30 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 11:01:30 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:01:30 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 11:01:30 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:01:30 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: error, Hora de evento:17/7/2023, 11:01:30 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 11:01:30 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:01:30 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 11:01:30 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:01:30 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 11:07:56 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:07:56 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 11:07:56 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:07:56 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 11:07:56 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:07:56 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 11:07:56 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:07:57 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 11:07:57 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:07:57 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 11:07:57 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:07:57 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 11:07:57 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:07:57 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 11:07:57 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:07:57 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 11:07:57 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:07:57 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 11:10:46 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:10:46 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 11:10:46 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:10:46 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 11:10:46 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:10:46 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 11:10:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:10:47 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 11:10:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:10:47 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 11:10:47 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:10:47 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 11:10:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:10:48 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 11:10:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:10:48 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 11:10:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:10:48 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:13:31 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 11:22:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:22:48 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 11:22:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:22:48 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 11:22:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:22:48 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 11:22:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:22:48 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 11:22:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:22:48 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 11:22:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:22:48 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 11:22:49 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:22:49 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 11:22:49 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:22:49 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 11:22:49 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:22:49 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 11:47:45 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:47:45 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 11:47:45 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:47:45 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 11:47:45 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:47:45 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 11:47:46 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:47:46 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 11:47:46 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:47:46 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 11:47:46 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:47:46 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 11:47:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:47:48 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 11:47:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:47:48 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 11:47:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:47:48 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 11:47:48 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:47:48 p. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:17/7/2023, 11:47:48 p. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:17/7/2023, 11:53:09 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:53:09 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 11:53:09 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:53:09 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 11:53:09 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:53:09 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:17/7/2023, 11:53:10 p. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:17/7/2023, 11:54:36 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:54:36 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 11:54:36 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:54:36 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 11:54:36 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:54:36 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 11:54:36 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:54:36 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 11:54:36 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:54:36 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 11:54:36 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:54:36 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 11:54:37 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:54:37 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 11:54:37 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:54:37 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 11:54:37 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:54:37 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 11:54:37 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:54:37 p. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:17/7/2023, 11:54:37 p. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:17/7/2023, 11:56:19 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:56:19 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:17/7/2023, 11:56:19 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:56:19 p. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:17/7/2023, 11:56:19 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:56:19 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:17/7/2023, 11:56:20 p. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:03:25 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:03:26 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:03:25 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:03:25 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:03:25 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:03:25 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:03:25 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:07:26 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:07:27 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:07:27 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:07:27 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:07:27 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:07:27 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:07:27 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:09:21 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:09:22 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:09:22 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:09:22 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:09:22 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:09:22 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:09:22 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:11:05 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:11:05 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:11:05 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:11:05 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:11:05 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:11:05 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:11:05 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:11:06 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:11:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:11:06 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:11:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:11:06 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:11:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:11:06 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:11:06 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:11:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:11:06 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:11:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:11:06 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:11:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:11:06 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:12:10 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:12:11 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:12:11 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:12:11 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:12:11 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:12:11 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:12:11 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:12:11 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:12:11 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:12:11 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:12:11 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:12:11 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:12:11 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:12:11 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:12:11 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:12:12 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:12:12 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:12:12 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:12:12 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:12:12 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:12:12 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:13:15 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:13:15 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:13:15 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:13:15 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:13:15 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:13:15 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:13:15 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:13:15 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:13:15 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:13:16 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:18/7/2023, 12:13:16 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:13:16 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:13:16 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:13:16 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:13:16 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:13:16 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: error, Hora de evento:18/7/2023, 12:13:16 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:13:16 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:13:16 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:13:16 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:13:16 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:18:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:18:21 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:18:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:18:21 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:18:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:18:21 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:18:20 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:18:20 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:18:20 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:18:20 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:18:20 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:18:20 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:18:20 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:18:20 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:18:20 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:18:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:18:21 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:18:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:18:21 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:18:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:18:21 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:19:56 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:19:56 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:19:56 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:19:56 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:19:56 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:19:56 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:19:56 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:19:56 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:19:56 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:19:57 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:19:57 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:19:57 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:19:57 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:19:57 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:19:57 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:19:57 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:19:57 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:19:57 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:19:57 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:19:57 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:19:57 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:20:54 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:18/7/2023, 12:20:55 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:20:55 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:20:55 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:20:55 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:20:55 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:20:55 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: error, Hora de evento:18/7/2023, 12:20:54 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:20:54 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:20:54 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:20:54 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:20:54 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:20:54 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:20:54 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:20:54 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:20:55 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:20:55 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:20:55 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:20:55 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:20:55 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:20:55 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:21:35 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:18/7/2023, 12:21:36 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:21:35 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:21:35 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:21:35 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:21:35 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:21:35 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:21:35 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:21:35 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:21:35 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:21:36 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:21:36 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:21:36 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:21:36 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:21:36 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:21:36 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: error, Hora de evento:18/7/2023, 12:21:36 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:21:36 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:21:36 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:21:36 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:21:36 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:25:02 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:25:02 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:25:02 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:25:02 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:25:02 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:25:02 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:25:02 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:25:02 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:25:02 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:25:03 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:18/7/2023, 12:25:02 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:25:03 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:25:03 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:25:03 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:25:03 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:25:03 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: error, Hora de evento:18/7/2023, 12:25:03 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:25:03 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:25:03 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:25:03 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:25:03 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:26:40 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:26:40 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:26:40 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:26:40 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:26:40 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:26:40 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:26:40 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:26:40 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:26:40 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:26:41 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:18/7/2023, 12:26:41 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:26:41 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:26:41 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:26:41 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:26:41 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:26:41 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: error, Hora de evento:18/7/2023, 12:26:41 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:26:41 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:26:41 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:26:41 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:26:41 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:27:48 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:27:48 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:27:48 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:27:48 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:27:48 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:27:48 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:27:48 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:27:48 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:27:48 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:27:49 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:27:49 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:27:49 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:27:49 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:27:49 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:27:49 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:27:49 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:27:49 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:27:49 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:27:49 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:27:49 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:27:49 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:29:23 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:29:23 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:29:23 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:29:23 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:29:23 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:29:23 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:29:23 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:29:23 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:29:23 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:29:24 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:18/7/2023, 12:29:24 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:29:24 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:29:24 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:29:24 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:29:24 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:29:24 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: error, Hora de evento:18/7/2023, 12:29:24 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:29:24 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:29:24 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:29:24 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:29:24 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:32:02 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:18/7/2023, 12:32:03 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:32:03 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:32:03 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:32:03 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:32:03 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:32:03 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: error, Hora de evento:18/7/2023, 12:32:02 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:32:02 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:32:02 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:32:02 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:32:02 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:32:02 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:32:02 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:32:02 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:32:03 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:32:03 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:32:03 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:32:03 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:32:03 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:32:03 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:33:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:33:21 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:33:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:33:21 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:33:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:33:21 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:33:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:33:21 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:33:21 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:33:22 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:33:22 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:33:22 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:33:22 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:33:22 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:33:22 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:33:22 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:33:22 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:33:22 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:33:22 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:33:22 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:33:22 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:42:53 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:42:53 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:42:53 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:42:53 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:42:53 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:42:53 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:42:53 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:42:53 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:42:53 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:42:54 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:18/7/2023, 12:42:54 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:42:54 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:42:54 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:42:54 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:42:54 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:42:54 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: error, Hora de evento:18/7/2023, 12:42:54 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:42:54 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:42:54 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:42:54 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:42:54 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:45:12 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:45:12 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:45:12 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:45:12 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:45:12 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:45:12 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:45:12 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:45:12 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:45:12 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:45:13 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:45:13 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:45:13 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:45:13 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:45:13 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:45:13 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:45:13 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:45:13 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:45:13 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:45:13 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:45:13 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:45:13 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:48:37 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:18/7/2023, 12:48:37 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:48:37 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:48:37 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:48:37 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:48:37 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:48:37 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:48:37 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:48:37 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:48:37 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:48:37 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:48:38 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:48:38 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:48:38 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:48:38 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:48:38 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:48:38 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:48:38 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:48:38 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:48:38 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:48:38 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:50:39 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:50:40 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:50:40 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:50:40 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:50:40 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:50:40 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:50:40 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:18/7/2023, 12:54:51 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:54:50 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:54:51 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:54:51 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:54:51 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:54:51 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:54:51 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:55:53 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 12:55:54 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:55:54 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:55:54 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:55:54 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:55:54 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:55:54 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 12:58:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:58:39 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 12:58:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:58:39 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 12:58:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:58:39 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 12:58:40 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:18/7/2023, 12:58:40 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:58:40 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 12:58:40 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:58:40 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 12:58:40 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:58:40 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 12:58:40 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:58:40 a. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 12:58:41 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 12:58:40 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 12:58:40 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:58:40 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 12:58:40 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 12:58:40 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 1:01:05 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:18/7/2023, 1:01:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:06 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 1:01:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:06 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 1:01:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:06 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: error, Hora de evento:18/7/2023, 1:01:06 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 1:01:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:06 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 1:01:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:06 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 1:01:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:06 a. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 1:01:06 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 1:01:07 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:07 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 1:01:07 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:07 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 1:01:07 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:07 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 1:01:51 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:51 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 1:01:52 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:52 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 1:01:52 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:52 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 1:01:52 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:52 a. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 1:01:52 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 1:01:52 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:52 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 1:01:52 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:52 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 1:01:52 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:52 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 1:01:53 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:53 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 1:01:53 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:53 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 1:01:53 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:01:53 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 1:06:45 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:06:45 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 1:06:45 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:06:45 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 1:06:45 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:06:45 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:06:46 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 1:22:05 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:22:06 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 1:22:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:22:06 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 1:22:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:22:06 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 1:22:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:22:06 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 1:22:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:22:06 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 1:22:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:22:06 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 1:22:06 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:22:06 a. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 1:22:06 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 1:22:08 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:22:08 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 1:22:08 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:22:08 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 1:22:08 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:22:08 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 1:22:08 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:22:08 a. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 1:22:08 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: info, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:24:21 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 1:28:39 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 1:37:23 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:37:23 a. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: info, Hora de evento:18/7/2023, 1:37:23 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:37:23 a. m., tag:Log de evento, mensaje:Error al crear nuevo doctor
+Categoria: info, Hora de evento:18/7/2023, 1:37:23 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:37:23 a. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: info, Hora de evento:18/7/2023, 1:37:23 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:37:23 a. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 1:37:23 a. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: info, Hora de evento:18/7/2023, 1:37:23 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:37:23 a. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: info, Hora de evento:18/7/2023, 1:37:23 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:37:24 a. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: info, Hora de evento:18/7/2023, 1:37:24 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:37:24 a. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: info, Hora de evento:18/7/2023, 1:37:24 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:37:24 a. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: info, Hora de evento:18/7/2023, 1:37:24 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:37:24 a. m., tag:Log de evento, mensaje:Error al crear nuevo paciente
+Categoria: info, Hora de evento:18/7/2023, 1:37:24 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:37:24 a. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: info, Hora de evento:18/7/2023, 1:37:24 a. m., tag:Log de evento, mensaje:NaN HTTP STATUS: undefined
+Categoria: error, Hora de evento:18/7/2023, 1:37:24 a. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 1:37:24 a. m., tag:Log de evento, mensaje:Error actualizando información

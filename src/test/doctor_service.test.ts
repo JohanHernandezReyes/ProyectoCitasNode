@@ -2,6 +2,7 @@ import { doctorRepository } from './../api/components/doctores/repository';
 import { DoctorServiceImp } from './../api/components/doctores/services';
 import { Doctor, newDoctor } from "../api/components/doctores/model";
 
+
 describe('DoctorService', ()=>{
     let DoctorServ:DoctorServiceImp;
     let DoctorRepo:doctorRepository;
@@ -9,7 +10,9 @@ describe('DoctorService', ()=>{
         DoctorRepo = {
             queryDoctors:jest.fn(),
             createDoctor:jest.fn(),
-            GetDoctorById:jest.fn()
+            GetDoctorById:jest.fn(),
+            UpdateDoctor:jest.fn(),
+            DeleteDoctor:jest.fn()
         },
         DoctorServ = new DoctorServiceImp(DoctorRepo);
     })
@@ -54,7 +57,7 @@ describe('DoctorService', ()=>{
              
         });
 
-        it("Debe retornar un status 400 si falla la creación del doctor",async () => {
+        it("Debe retornar un error si falla la creación del doctor",async () => {
             const error = new Error("Error al crear nuevo doctor");
             const doctorReq:newDoctor = {nombre:'Eduardo', apellido:'Sarmiento', especialidad:'Psicologia', consultorio: 701, correo:'edu_sarmiento523@hotmail.com'};                
             (DoctorRepo.createDoctor as jest.Mock).mockRejectedValue(error);
@@ -76,7 +79,7 @@ describe('DoctorService', ()=>{
              
         });
 
-        it("Debe retornar un status 400 si no encuentra el Id", async () => {
+        it("Debe retornar un error si no encuentra el Id", async () => {
             const error = new Error("Error al consultar el doctor especificado");
             (DoctorRepo.GetDoctorById as jest.Mock).mockRejectedValue(error);
             await expect(DoctorServ.GetDoctorById(4)).rejects.toThrowError(error);
@@ -90,4 +93,36 @@ describe('DoctorService', ()=>{
             expect(result).toBeNull();
         });
     })
+
+
+    //Probar el servicio de actualizar
+    describe('UpdateDoctor', ()=>{
+        const doctorupdates:Partial<Doctor> = {consultorio:501};
+        const doctor: Doctor = {id_doctor:4, nombre:'Eduardo', apellido:'Sarmiento', especialidad:'Psicologia', consultorio: 701, correo:'edu_sarmiento523@hotmail.com'};
+                
+        it("Actualiza la info de un doctor especifico por su Id", async()=>{
+                (DoctorRepo.GetDoctorById as jest.Mock).mockResolvedValue(doctor);
+                const doctorbyid = await DoctorServ.GetDoctorById(4);
+                expect(DoctorRepo.GetDoctorById).toHaveBeenCalledWith(4);
+                expect(doctorbyid).not.toBeNull();
+                
+                const doctorRes: Doctor = {id_doctor:4, nombre:'Eduardo', apellido:'Sarmiento', especialidad:'Psicologia', consultorio: 501, correo:'edu_sarmiento523@hotmail.com'};
+                (DoctorRepo.UpdateDoctor as jest.Mock).mockResolvedValue(doctor);
+                const result = await DoctorServ.UpdateDoctor(4, doctorupdates);
+                expect(DoctorRepo.UpdateDoctor).toHaveBeenCalledWith(4, doctorupdates);
+                expect({...doctor, ...result}).toEqual(doctorRes);             
+        });
+
+        it("Debe retornar un error si falla la actualizacion", async () => {
+            (DoctorRepo.GetDoctorById as jest.Mock).mockResolvedValue(doctor);
+            const doctorbyid = await DoctorServ.GetDoctorById(4);
+            expect(DoctorRepo.GetDoctorById).toHaveBeenCalledWith(4);
+            expect(doctorbyid).not.toBeNull();
+
+            const error = new Error("Error actualizando información");
+            (DoctorRepo.UpdateDoctor as jest.Mock).mockRejectedValue(error);
+            await (expect(DoctorRepo.UpdateDoctor(4, doctorupdates))).rejects.toThrowError(error);
+        });
+    })
+    
 })

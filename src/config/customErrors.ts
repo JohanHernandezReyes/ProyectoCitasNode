@@ -49,11 +49,27 @@ class RecordNotFoundError extends Error{
     }
 }
 
+class UpdateInfoError extends Error{
+    constructor(message:string){
+        super(message);
+        this.name = "UpdateInfoError";
+    }
+}
+
+class DeleteInfoError extends Error{
+    constructor(message:string){
+        super(message);
+        this.name = "DeleteInfoError";
+    }
+}
+
 export {DoctorGetAllError, 
        DoctorCreationError,
        PatientGetAllError,
        PatientCreationError,
        AppointmentGetAllError,
        AppointmentCreationError,
-       RecordNotFoundError
+       RecordNotFoundError,
+       UpdateInfoError,
+       DeleteInfoError
 }

@@ -1,6 +1,6 @@
 import { Paciente, newPaciente } from '../api/components/pacientes/model';
 import { PatientService } from '../api/components/pacientes/services';
-import { PatientCreationError, PatientGetAllError, RecordNotFoundError } from '../config/customErrors';
+import { PatientCreationError, PatientGetAllError, RecordNotFoundError, UpdateInfoError } from '../config/customErrors';
 import { PatientContr, PatientController } from './../api/components/pacientes/controller';
 import {Request, Response} from 'express';
 
@@ -17,7 +17,9 @@ describe('PatientContr', ()=>{
         PatientServ = {
             getAllPatients:jest.fn(),
             createPatient:jest.fn(),
-            GetPatientById:jest.fn()
+            GetPatientById:jest.fn(),
+            UpdatePatient:jest.fn(),
+            DeletePatient:jest.fn()
         },
         PatientCont = new PatientContr(PatientServ);
         mockres.status = jest.fn().mockReturnThis();
@@ -105,4 +107,45 @@ describe('PatientContr', ()=>{
                 
         })
     })
+
+    
+    //Probar el controlador de la funcion actualizar
+    describe('UpdatePatient', ()=>{
+        it("Actualiza la info de un paciente especifico por su Id", async()=>{
+                const Paciente: Paciente ={id_paciente:2, nombre:'Matias', apellido:'Hernandez', identif:'1022221924'};
+                (mockreq.params) = {id:"4"};
+                (PatientServ.UpdatePatient as jest.Mock).mockResolvedValue(Paciente);
+                await PatientCont.UpdatePatient(mockreq, mockres);
+
+                expect(PatientServ.UpdatePatient).toHaveBeenCalledWith(4, {});
+                expect(mockres.json).toHaveBeenCalledWith(Paciente);
+                expect(mockres.status).toHaveBeenCalledWith(200);
+        });
+
+        it("Debe manejar el error y retornar un status 400 si no encuentra el Id",async () => {
+            const error = new RecordNotFoundError("No existe id en la base de datos");
+            (mockreq.params) = {id:"4"};
+            (PatientServ.UpdatePatient as jest.Mock).mockResolvedValue(null);
+            (PatientServ.UpdatePatient as jest.Mock).mockRejectedValue(error);
+            await PatientCont.UpdatePatient(mockreq, mockres);
+
+            expect(PatientServ.UpdatePatient).toHaveBeenCalledWith(4, {});
+            expect(mockres.json).toHaveBeenCalledWith({error_name:error.name, message:error.message});
+            expect(mockres.status).toHaveBeenCalledWith(400);
+                
+        });
+
+        it("Debe retornar un status 400 si hay un error de actualización",async () => {
+            const error = new UpdateInfoError("Error actualizando información");
+            (mockreq.body) = {};
+            (PatientServ.UpdatePatient as jest.Mock).mockResolvedValue(null);
+            (PatientServ.UpdatePatient as jest.Mock).mockRejectedValue(error);
+            await PatientCont.UpdatePatient(mockreq, mockres);
+
+            expect(PatientServ.UpdatePatient).toHaveBeenCalledWith(4,{});
+            expect(mockres.json).toHaveBeenCalledWith({error_name:error.name, message:error.message});
+            expect(mockres.status).toHaveBeenCalledWith(400);
+                
+        });
+    })    
 })

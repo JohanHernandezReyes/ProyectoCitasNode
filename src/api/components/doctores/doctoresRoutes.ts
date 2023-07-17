@@ -10,9 +10,11 @@ const doctorRepo = new doctorRepository();
 const DoctorService = new DoctorServiceImp(doctorRepo);
 const doctorCont:DoctorController = new DoctorContr(DoctorService);
 
-router.get('/list', doctorCont.getAllDoctors.bind(doctorCont))
-router.post('/create', doctorCont.createDoctor.bind(doctorCont))
-router.get('/:id', doctorCont.GetDoctorById.bind(doctorCont))
+router.get('/list', doctorCont.getAllDoctors.bind(doctorCont));
+router.post('/create', doctorCont.createDoctor.bind(doctorCont));
+router.get('/:id', doctorCont.GetDoctorById.bind(doctorCont));
+router.put('/:id', doctorCont.UpdateDoctor.bind(doctorCont));
+router.delete('/:id', doctorCont.DeleteDoctor.bind(doctorCont));
 
 
 export default router;

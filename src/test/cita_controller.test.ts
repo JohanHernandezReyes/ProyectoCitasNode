@@ -17,7 +17,9 @@ describe('CitaContr', ()=>{
         CitaServ = {
             getAllAppointments:jest.fn(),
             createAppointment:jest.fn(),
-            GetAppointmentById:jest.fn()
+            GetAppointmentById:jest.fn(),
+            UpdateAppointment:jest.fn(),
+            DeleteAppointment:jest.fn()
         },
         CitaCont = new CitaContr(CitaServ);
         mockres.status = jest.fn().mockReturnThis();
@@ -28,8 +30,8 @@ describe('CitaContr', ()=>{
     describe('getAllAppointments', ()=>{
         it("Debe obtener los datos de todas las citas", async()=>{
                 const Citas: Cita[] =[
-                    {id_cita:1, horario:"07:30am", identif_paciente:"39537569", id_doctor:4, especialidad:'Psicologia'},
-                    {id_cita:2, horario:"08:30am", identif_paciente:"1022221924", id_doctor:5, especialidad:'Pediatria'}
+                    {horario:"07:30am", identif_paciente:"39537569", nombre_doctor:"Juan Perez", nombre_paciente:"Ana Reyes", especialidad:'Psicologia', consultorio:101},
+                    {horario:"08:30am", identif_paciente:"1022221924", nombre_doctor:"Eduardo Sarmiento", nombre_paciente:"Matias Hernandez", especialidad:'Pediatria', consultorio:301}
                 ];
                 //simular el resultado esperado
                 (CitaServ.getAllAppointments as jest.Mock).mockResolvedValue(Citas);
@@ -55,9 +57,10 @@ describe('CitaContr', ()=>{
     //Probar el controlador de la funcion crear
     describe('createAppointment', ()=>{
         it("Realiza la creación de una nueva cita", async()=>{
-                const cita: Cita ={id_cita:1, horario:"07:30am", identif_paciente:"39537569", id_doctor:4, especialidad:'Psicologia'};
+                const cita: Cita =
+                {horario:"07:30am", identif_paciente:"39537569", nombre_doctor:"Juan Perez", nombre_paciente:"Ana Reyes", especialidad:'Psicologia', consultorio:101};
                 //simular el resultado esperado
-                const citaReq:newCita = {horario:"07:30am", identif_paciente:"39537569", id_doctor:4, especialidad:'Psicologia'};                
+                const citaReq:newCita = {horario:"07:30am", identif_paciente:"39537569", id_doctor:4};                
                 (mockreq.body as newCita) =  citaReq;
                 (CitaServ.createAppointment as jest.Mock).mockResolvedValue(cita);
                 await CitaCont.createAppointment(mockreq, mockres);
@@ -82,7 +85,7 @@ describe('CitaContr', ()=>{
     //Probar el controlador de la funcion consultar por Id
     describe('GetAppointmentById', ()=>{
         it("Consulta la info de una cita especifica por su Id", async()=>{
-                const Cita: Cita =  {id_cita:2, horario:"08:30am", identif_paciente:"1022221924", id_doctor:5, especialidad:'Pediatria'};
+                const Cita: Cita =   {horario:"08:30am", identif_paciente:"1022221924", nombre_doctor:"Eduardo Sarmiento", nombre_paciente:"Matias Hernandez", especialidad:'Pediatria', consultorio:301};
                 (mockreq.params) = {id:"2"};
                 (CitaServ.GetAppointmentById as jest.Mock).mockResolvedValue(Cita);
                 await CitaCont.GetAppointmentById(mockreq, mockres);

@@ -1,6 +1,6 @@
 import { Doctor, newDoctor } from './model';
 import { db } from './../../../config/database';
-import { DoctorCreationError, DoctorGetAllError, RecordNotFoundError } from '../../../config/customErrors';
+import { DeleteInfoError, DoctorCreationError, DoctorGetAllError, RecordNotFoundError, UpdateInfoError } from '../../../config/customErrors';
 
 export class doctorRepository {
     
@@ -32,6 +32,24 @@ export class doctorRepository {
         }
         catch(error){
             throw new DoctorGetAllError(`Error al consultar la lista de doctores: ${error.message}`)
+        }
+    }
+
+    public async UpdateDoctor(id:number, updates:Partial<newDoctor>): Promise<void>{
+        try{
+            await db('doctores').where({id_doctor:id}).update(updates);
+        }
+        catch(error){
+            throw new UpdateInfoError(`Error al actualizar la info del doctor: ${error.message}`)
+        }
+    }
+
+    public async DeleteDoctor(id:number): Promise<void>{
+        try{
+            await db('doctores').where({id_doctor:id}).del();
+        }
+        catch(error){
+            throw new DeleteInfoError(`Error al eliminar el doctor especificado: ${error.message}`)
         }
     }
 }

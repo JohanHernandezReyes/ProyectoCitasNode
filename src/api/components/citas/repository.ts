@@ -1,10 +1,10 @@
-import { Cita, newCita } from './model';
+import { Cita, ResponseCita, newCita } from './model';
 import { db } from './../../../config/database';
-import { AppointmentCreationError, AppointmentGetAllError, RecordNotFoundError } from '../../../config/customErrors';
+import { AppointmentCreationError, AppointmentGetAllError, DeleteInfoError, RecordNotFoundError, UpdateInfoError } from '../../../config/customErrors';
 
 export class citaRepository {
     
-    public async createAppointment(cita:newCita): Promise<Cita>{
+    public async createAppointment(cita:newCita): Promise<ResponseCita>{
         try{
             //se debe definir la constante como tipo any[]
             const [createdAppointment] = await db('citas').insert(cita).returning('*');
@@ -15,7 +15,7 @@ export class citaRepository {
         }
     }
 
-    public async GetAppointmentById(id:number): Promise<Cita>{
+    public async GetAppointmentById(id:number): Promise<ResponseCita>{
         try{
             const CitaX:any = await db('citas').where({id_cita:id}).first();
             return CitaX;
@@ -33,6 +33,24 @@ export class citaRepository {
         }
         catch(error){
             throw new AppointmentGetAllError("Error al consultar la lista de citas: "+error.message)
+        }
+    }
+
+    public async UpdateAppointment(id:number, updates:Partial<newCita>): Promise<void>{
+        try{
+            await db('citas').where({id_cita:id}).update(updates);
+        }
+        catch(error){
+            throw new UpdateInfoError(`Error al actualizar la info de la cita: ${error.message}`)
+        }
+    }
+
+    public async DeleteAppointment(id:number): Promise<void>{
+        try{
+            await db('citas').where({id_cita:id}).del();
+        }
+        catch(error){
+            throw new DeleteInfoError(`Error al eliminar la cita especificada: ${error.message}`)
         }
     }
 }
