@@ -2,10 +2,12 @@ import {Cita} from './model';
 import {Request, Response} from 'express';
 import { CitaService } from './services';
 import logger from '../../../utils/logger';
+import { RecordNotFoundError } from '../../../config/customErrors';
 
 export interface CitaController{
     getAllAppointments(req: Request, res:Response):void;
     createAppointment(req: Request, res: Response):void;
+    GetAppointmentById(req: Request, res: Response):Promise<void>;
 }
 
 export class CitaContr implements CitaController{
@@ -22,7 +24,7 @@ export class CitaContr implements CitaController{
             logger.info(req.baseUrl+req.url+" HTTP STATUS: "+res.statusCode);},
         (error)=>{
             logger.error(error);
-            console.log(res.status(400).json({message:error}));
+            res.status(400).json({error_name: error.name, message:error.message});
         });
     }
 
@@ -34,7 +36,25 @@ export class CitaContr implements CitaController{
             logger.info(req.baseUrl+req.url+" HTTP STATUS: "+res.statusCode);}, 
         (error)=>{
             logger.error(error);
-            console.log(res.status(400).json({message:error}));
+            res.status(400).json({error_name: error.name, message:error.message});
         });
     }
+
+    public async GetAppointmentById(req: Request, res: Response):Promise<void>{
+        try{
+            const id = parseInt(req.params.id)
+            const CitaX = await this.CitaServ.GetAppointmentById(id);
+            if(CitaX){
+                res.status(200).json(CitaX);
+                logger.info(req.baseUrl+req.url+ " HTTP STATUS: "+res.statusCode);
+            }    
+        }catch(error){
+            logger.error(error.message);
+            if (error instanceof RecordNotFoundError){
+                res.status(400).json({error_name: error.name, message:error.message});
+            }else{
+                res.status(400).json({error:"Error consultando información"});
+            }
+        }    
+    } 
 }

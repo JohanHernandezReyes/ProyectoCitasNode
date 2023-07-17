@@ -30,7 +30,7 @@ export async function up(knex:Knex):Promise<void>{
             created_at timestamptz,
             updated_at timestamptz,
             constraint fk_doctores Foreign Key (id_doctor) references doctores(id_doctor),
-            constraint fk_pacientes Foreign Key (identif_paciente) references pacientes(identif_paciente));`
+            constraint fk_pacientes Foreign Key (identif_paciente) references pacientes(identif));`
     )
 }
 

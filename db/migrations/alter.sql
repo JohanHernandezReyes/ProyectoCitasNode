@@ -1,1 +1,1 @@
-ALTER TABLE citas RENAME COLUMN identif_paciente TO identif;
+ALTER TABLE citas RENAME COLUMN identif TO identif_paciente;

@@ -8,7 +8,8 @@ describe('DoctorService', ()=>{
     beforeEach(() =>{
         DoctorRepo = {
             queryDoctors:jest.fn(),
-            createDoctor:jest.fn()
+            createDoctor:jest.fn(),
+            GetDoctorById:jest.fn()
         },
         DoctorServ = new DoctorServiceImp(DoctorRepo);
     })
@@ -53,16 +54,40 @@ describe('DoctorService', ()=>{
              
         });
 
-        /*it("Debe retornar un status 400 si falla la creación del doctor",async () => {
-            const doctor: Doctor = {id_doctor:4, nombre:'Eduardo', apellido:'Sarmiento', especialidad:'Psicologia', consultorio: 701, correo:'edu_sarmiento523@hotmail.com'};
+        it("Debe retornar un status 400 si falla la creación del doctor",async () => {
             const error = new Error("Error al crear nuevo doctor");
             const doctorReq:newDoctor = {nombre:'Eduardo', apellido:'Sarmiento', especialidad:'Psicologia', consultorio: 701, correo:'edu_sarmiento523@hotmail.com'};                
             (DoctorRepo.createDoctor as jest.Mock).mockRejectedValue(error);
-            const result = await DoctorServ.createDoctor(doctorReq);
 
-            expect(DoctorRepo.createDoctor).toHaveBeenCalledWith(doctorReq);
-            expect(result).rejects.toThrowError();
-                
-        })*/
+            await expect(DoctorServ.createDoctor(doctorReq)).rejects.toThrowError(error);
+            expect(DoctorRepo.createDoctor).toHaveBeenCalledWith(doctorReq);     
+        })
+    })
+
+    //Probar el servicio de consultar por Id
+    describe('GetDoctorById', ()=>{
+        it("Consulta la info de un doctor especifico por su Id", async()=>{
+                const doctor: Doctor = {id_doctor:4, nombre:'Eduardo', apellido:'Sarmiento', especialidad:'Psicologia', consultorio: 701, correo:'edu_sarmiento523@hotmail.com'};
+                (DoctorRepo.GetDoctorById as jest.Mock).mockResolvedValue(doctor);
+                const result = await DoctorServ.GetDoctorById(4);
+
+                expect(DoctorRepo.GetDoctorById).toHaveBeenCalledWith(4);
+                expect(result).toEqual(doctor);
+             
+        });
+
+        it("Debe retornar un status 400 si no encuentra el Id", async () => {
+            const error = new Error("Error al consultar el doctor especificado");
+            (DoctorRepo.GetDoctorById as jest.Mock).mockRejectedValue(error);
+            await expect(DoctorServ.GetDoctorById(4)).rejects.toThrowError(error);
+            expect(DoctorRepo.GetDoctorById).toHaveBeenCalledWith(4);
+        });
+
+        it("Debe retornar un valor nulo si encuentra el Id definido como null", async () => {
+            (DoctorRepo.GetDoctorById as jest.Mock).mockResolvedValue(null);
+            const result = await DoctorServ.GetDoctorById(4);
+            expect(DoctorRepo.GetDoctorById).toHaveBeenCalledWith(4);
+            expect(result).toBeNull();
+        });
     })
 })

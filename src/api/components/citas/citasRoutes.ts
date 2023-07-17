@@ -12,6 +12,7 @@ const citaCont:CitaController = new CitaContr(CitaService);
 
 router.get('/list', citaCont.getAllAppointments.bind(citaCont))
 router.post('/create', citaCont.createAppointment.bind(citaCont))
+router.get('/:id', citaCont.GetAppointmentById.bind(citaCont))
 
 
 export default router;

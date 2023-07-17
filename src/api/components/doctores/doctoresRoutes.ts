@@ -12,7 +12,7 @@ const doctorCont:DoctorController = new DoctorContr(DoctorService);
 
 router.get('/list', doctorCont.getAllDoctors.bind(doctorCont))
 router.post('/create', doctorCont.createDoctor.bind(doctorCont))
-
+router.get('/:id', doctorCont.GetDoctorById.bind(doctorCont))
 
 
 export default router;

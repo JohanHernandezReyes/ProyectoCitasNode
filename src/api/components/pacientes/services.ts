@@ -1,3 +1,4 @@
+import { PatientCreationError, RecordNotFoundError } from '../../../config/customErrors';
 import {Paciente, newPaciente} from './model';
 import { PacienteRepository } from './repository';
 
@@ -6,6 +7,8 @@ export interface PatientService{
     getAllPatients():Promise<Paciente[]>;
     //createPatient(patientReq:newPaciente):Paciente;
     createPatient(patientReq:newPaciente):Promise<Paciente>;
+
+    GetPatientById(id:number):Promise<Paciente>;
 }
 
 export class PatientServiceImp implements PatientService{
@@ -45,7 +48,21 @@ export class PatientServiceImp implements PatientService{
     }*/
 
     public async createPatient(patientReq:newPaciente):Promise<Paciente>{
-        const Paciente:Promise<Paciente>=this.patientRepository.createPatient(patientReq);
-        return Paciente; 
+        try{
+            const Paciente:Promise<Paciente>=this.patientRepository.createPatient(patientReq);
+            return Paciente; 
+        }catch(error){
+            throw new PatientCreationError(`${error}`);
+        }
     }
+
+    public async GetPatientById(id:number):Promise<Paciente>{
+        try{
+            const PacienteX:Promise<Paciente> = this.patientRepository.GetPatientById(id);
+            return PacienteX;
+        }catch(error){
+            throw new RecordNotFoundError(`${error}`);
+        }
+    } 
+
 }

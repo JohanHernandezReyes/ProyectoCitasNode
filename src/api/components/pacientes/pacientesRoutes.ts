@@ -11,5 +11,6 @@ const PatientCont:PatientController = new PatientContr(PatientService);
 
 router.get('/list', PatientCont.getAllPatients.bind(PatientCont))
 router.post('/create', PatientCont.createPatient.bind(PatientCont))
+router.get('/:id', PatientCont.GetPatientById.bind(PatientCont))
 
 export default router;

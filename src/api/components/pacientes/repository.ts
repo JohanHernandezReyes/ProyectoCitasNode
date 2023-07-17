@@ -1,5 +1,6 @@
 import { Paciente, newPaciente } from './model';
 import { db } from './../../../config/database';
+import { PatientCreationError, PatientGetAllError, RecordNotFoundError } from '../../../config/customErrors';
 
 export class PacienteRepository {
     public async createPatient(paciente:newPaciente): Promise<Paciente>{
@@ -9,7 +10,17 @@ export class PacienteRepository {
             return createdPatient;
         }
         catch(error){
-            throw new Error("Error al crear un paciente: "+error)
+            throw new PatientCreationError("Error al crear un paciente: "+error.message)
+        }
+    }
+
+    public async GetPatientById(id:number): Promise<Paciente>{
+        try{
+            const PacienteX:any = await db('pacientes').where({id_paciente:id}).first();
+            return PacienteX;
+        }
+        catch(error){
+            throw new RecordNotFoundError(`Error al consultar el paciente especificado: ${error.message}`)
         }
     }
 
@@ -20,7 +31,7 @@ export class PacienteRepository {
             return listofPatients;
         }
         catch(error){
-            throw new Error("Error al consultar la lista de pacientes: "+error)
+            throw new PatientGetAllError("Error al consultar la lista de pacientes: "+error.message)
         }
     }
 }

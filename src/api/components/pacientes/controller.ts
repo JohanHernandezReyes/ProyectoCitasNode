@@ -2,10 +2,12 @@ import {Paciente} from './model';
 import {Request, Response} from 'express';
 import { PatientService } from './services';
 import logger from '../../../utils/logger';
+import { RecordNotFoundError } from '../../../config/customErrors';
 
 export interface PatientController{
     getAllPatients(req: Request, res:Response):void;
     createPatient(req: Request, res: Response):void;
+    GetPatientById(req: Request, res: Response):Promise<void>;
 }
 
 export class PatientContr implements PatientController{
@@ -22,7 +24,7 @@ export class PatientContr implements PatientController{
             logger.info(req.baseUrl+req.url+" HTTP STATUS: "+res.statusCode);},
         (error)=>{
             logger.error(error);
-            res.status(400).json({message:error});
+            res.status(400).json({error_name: error.name, message:error.message});
         });     
     }
 
@@ -34,7 +36,25 @@ export class PatientContr implements PatientController{
             logger.info(req.baseUrl+req.url+" HTTP STATUS: "+res.statusCode);},
         (error)=>{
             logger.error(error);
-            res.status(400).json({message:error});
+            res.status(400).json({error_name: error.name, message:error.message});
         });
     }
+
+    public async GetPatientById(req: Request, res: Response):Promise<void>{
+        try{
+            const id = parseInt(req.params.id)
+            const PacienteX = await this.PatientServ.GetPatientById(id);
+            if(PacienteX){
+                res.status(200).json(PacienteX);
+                logger.info(req.baseUrl+req.url+ " HTTP STATUS: "+res.statusCode);
+            }    
+        }catch(error){
+            logger.error(error.message);
+            if (error instanceof RecordNotFoundError){
+                res.status(400).json({error_name: error.name, message:error.message});
+            }else{
+                res.status(400).json({error:"Error consultando información"});
+            }
+        }    
+    } 
 }

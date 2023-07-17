@@ -3,7 +3,7 @@ export interface Cita{
     horario:string,
     especialidad:string,
     id_doctor:number,
-    id_paciente:number,
+    identif_paciente:string,
     createdAt?: Date
 }
 
@@ -11,6 +11,6 @@ export interface newCita{
     horario:string,
     especialidad:string,
     id_doctor:number,
-    id_paciente:number,
+    identif_paciente:string,
     createdAt?: Date
 }
