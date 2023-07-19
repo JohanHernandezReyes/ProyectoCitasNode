@@ -60,6 +60,7 @@ export class CitaServiceImp implements CitaService{
 
     public async createAppointment(citaReq:newCita):Promise<Cita>{
         try{
+            citaReq.created_at = new Date();
             const citaDb = await this.citaRepo.createAppointment(citaReq);
             const doctor = await this.doctorRepo.GetDoctorById(citaDb.id_doctor);
             const paciente = await this.pacienteRepo.GetPatientByIdentif(citaDb.identif_paciente);
@@ -92,6 +93,7 @@ export class CitaServiceImp implements CitaService{
             if(!ExistAppointment){
                 throw new RecordNotFoundError("No existe el Id en la base de datos");
             }else{
+                updates.updated_at = new Date();
                 const updatedAppointment = {...ExistAppointment, ...updates};
                 this.citaRepo.UpdateAppointment(id, updatedAppointment);
                 return updatedAppointment;
@@ -126,7 +128,8 @@ function CitaDetalles(doctor:Doctor, patient:Paciente, cita:ResponseCita):Cita{
         nombre_paciente: `${patient.nombre} ${patient.apellido}`,
         consultorio: doctor.consultorio,    
         identif_paciente: cita.identif_paciente,
-        createdAt: cita.createdAt
+        created_at: cita.created_at,
+        updated_at: cita.updated_at
     };
     return citadetalle;
 }

@@ -106,7 +106,7 @@ describe('DoctorService', ()=>{
                 expect(DoctorRepo.GetDoctorById).toHaveBeenCalledWith(4);
                 expect(doctorbyid).not.toBeNull();
                 
-                const doctorRes: Doctor = {id_doctor:4, nombre:'Eduardo', apellido:'Sarmiento', especialidad:'Psicologia', consultorio: 501, correo:'edu_sarmiento523@hotmail.com'};
+                const doctorRes: Doctor = {id_doctor:4, nombre:'Eduardo', apellido:'Sarmiento', especialidad:'Psicologia', consultorio: 501, correo:'edu_sarmiento523@hotmail.com', updated_at:new Date()};
                 (DoctorRepo.UpdateDoctor as jest.Mock).mockResolvedValue(doctor);
                 const result = await DoctorServ.UpdateDoctor(4, doctorupdates);
                 expect(DoctorRepo.UpdateDoctor).toHaveBeenCalledWith(4, doctorupdates);

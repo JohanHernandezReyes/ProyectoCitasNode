@@ -51,6 +51,7 @@ export class DoctorServiceImp implements DoctorService{
 
     public async createDoctor(doctorReq:newDoctor):Promise<Doctor>{
         try{
+            doctorReq.created_at = new Date();    
             const Doctor:Promise<Doctor> = this.doctorRepository.createDoctor(doctorReq);
             return Doctor;
         }catch(error){
@@ -73,6 +74,7 @@ export class DoctorServiceImp implements DoctorService{
             if(!ExistDoctor){
                 throw new RecordNotFoundError("No existe el Id en la base de datos");
             }else{
+                updates.updated_at = new Date();
                 const updatedDoctor = {...ExistDoctor, ...updates};
                 this.doctorRepository.UpdateDoctor(id, updatedDoctor);
                 return updatedDoctor;

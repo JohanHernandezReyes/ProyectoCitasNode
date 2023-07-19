@@ -5,7 +5,8 @@ export interface Doctor{
     especialidad:string,
     consultorio:number,
     correo?:string, //dato opcional
-    created_at?: Date
+    created_at?: Date,
+    updated_at?:Date
 }
 
 export interface newDoctor{
@@ -14,5 +15,6 @@ export interface newDoctor{
     especialidad:string,
     consultorio:number,
     correo?:string, //dato opcional
-    created_at?: Date
+    created_at?: Date,
+    updated_at?:Date
 }
