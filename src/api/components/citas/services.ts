@@ -5,6 +5,7 @@ import { doctorRepository } from './../doctores/repository';
 import { Doctor } from '../doctores/model';
 import { Paciente } from './../pacientes/model';
 import { PacienteRepository } from './../pacientes/repository';
+import logger from '../../../utils/logger';
 
 export interface CitaService{
     //getAllAppointments():Cita[];
@@ -96,6 +97,7 @@ export class CitaServiceImp implements CitaService{
                 return updatedAppointment;
             }    
         }catch(error){
+            logger.error(error.message);
             throw new UpdateInfoError(`${error}`);
         }
     } 
@@ -109,6 +111,7 @@ export class CitaServiceImp implements CitaService{
                 this.citaRepo.DeleteAppointment(id);
             }    
         }catch(error){
+            logger.error(error.message);
             throw new DeleteInfoError(`${error}`);
         }
     } 

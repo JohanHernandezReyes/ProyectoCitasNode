@@ -3,6 +3,7 @@ import {Request, Response} from 'express';
 import { PatientService } from './services';
 import logger from '../../../utils/logger';
 import { DeleteInfoError, RecordNotFoundError, UpdateInfoError } from '../../../config/customErrors';
+import { createPatientSchema } from './validations/pacientes_validations';
 
 export interface PatientController{
     getAllPatients(req: Request, res:Response):void;
@@ -31,15 +32,21 @@ export class PatientContr implements PatientController{
     }
 
     public createPatient(req: Request, res: Response):void{
-        const PacienteReq = req.body;
-        //const PatientX:Paciente| null = this.PatientServ.createPatient(PacienteReq);
-        this.PatientServ.createPatient(PacienteReq).then((PatientX)=>{
-            res.status(201).json(PatientX);
-            logger.info(req.baseUrl+req.url+" HTTP STATUS: "+res.statusCode);},
-        (error)=>{
+        const {error, value} = createPatientSchema.validate(req.body);
+        if (!error){
+            const PacienteReq = req.body;
+            //const PatientX:Paciente| null = this.PatientServ.createPatient(PacienteReq);
+            this.PatientServ.createPatient(PacienteReq).then((PatientX)=>{
+                res.status(201).json(PatientX);
+                logger.info(req.baseUrl+req.url+" HTTP STATUS: "+res.statusCode);},
+            (error)=>{
+                logger.error(error);
+                res.status(400).json({error_name: error.name, message:error.message});
+            });
+        }else{
             logger.error(error);
-            res.status(400).json({error_name: error.name, message:error.message});
-        });
+            res.status(400).json({message: error.details[0].message});
+        }
     }
 
     public async GetPatientById(req: Request, res: Response):Promise<void>{

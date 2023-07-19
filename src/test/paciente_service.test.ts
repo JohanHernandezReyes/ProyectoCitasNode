@@ -79,6 +79,14 @@ describe('PatientService', ()=>{
             expect(result).toEqual(paciente); 
         });
 
+        it("Consulta la info de un paciente especifico por su Identificacion", async()=>{
+            const paciente: Paciente = {id_paciente:2, nombre:'Matias', apellido:'Hernandez', identif:'1022221924'};
+            (PatientRepo.GetPatientByIdentif as jest.Mock).mockResolvedValue(paciente);
+            const result = await PatientRepo.GetPatientByIdentif("1022221924");
+            expect(PatientRepo.GetPatientByIdentif).toHaveBeenCalledWith("1022221924");
+            expect(result).toEqual(paciente); 
+        });
+
         it("Debe retornar un error si no encuentra el Id", async () => {
             const error = new Error("Error al consultar el paciente especificado");
             (PatientRepo.GetPatientById as jest.Mock).mockRejectedValue(error);

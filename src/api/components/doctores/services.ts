@@ -1,4 +1,5 @@
 import { DeleteInfoError, DoctorCreationError, RecordNotFoundError, UpdateInfoError } from '../../../config/customErrors';
+import logger from '../../../utils/logger';
 import {Doctor, newDoctor} from './model';
 import { doctorRepository } from './repository';
 
@@ -77,6 +78,7 @@ export class DoctorServiceImp implements DoctorService{
                 return updatedDoctor;
             }    
         }catch(error){
+            logger.error(error.message);
             throw new UpdateInfoError(`${error}`);
         }
     } 
@@ -90,6 +92,7 @@ export class DoctorServiceImp implements DoctorService{
                 this.doctorRepository.DeleteDoctor(id);
             }    
         }catch(error){
+             logger.error(error.message);
             throw new DeleteInfoError(`${error}`);
         }
     } 

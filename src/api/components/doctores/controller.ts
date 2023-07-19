@@ -1,8 +1,8 @@
-import {Doctor} from './model';
 import {Request, Response} from 'express';
 import { DoctorService } from './services';
 import logger from '../../../utils/logger';
 import { DeleteInfoError, RecordNotFoundError, UpdateInfoError } from '../../../config/customErrors';
+import { createDoctorSchema } from './validations/doctor_validations';
 
 export interface DoctorController{
     getAllDoctors(req: Request, res:Response):void;
@@ -31,15 +31,23 @@ export class DoctorContr implements DoctorController{
     }
 
     public createDoctor(req: Request, res: Response):void{
-        const DoctorReq = req.body;
-        //const DoctorX:Doctor = this.DoctorServ.createDoctor(DoctorReq);
-        this.DoctorServ.createDoctor(DoctorReq).then((DoctorX)=>{ 
-            res.status(201).json(DoctorX); 
-            logger.info(req.baseUrl+req.url+ " HTTP STATUS: "+res.statusCode);},
-        (error)=>{
+
+        const {error, value} = createDoctorSchema.validate(req.body);
+        if (!error){
+            const DoctorReq = req.body;
+            //const DoctorX:Doctor = this.DoctorServ.createDoctor(DoctorReq);
+            this.DoctorServ.createDoctor(DoctorReq).then((DoctorX)=>{ 
+                res.status(201).json(DoctorX); 
+                logger.info(req.baseUrl+req.url+ " HTTP STATUS: "+res.statusCode);},
+            (error)=>{
+                logger.error(error.message);
+                res.status(400).json({error_name: error.name, message:error.message});
+            });
+            
+        }else{
             logger.error(error.message);
-            res.status(400).json({error_name: error.name, message:error.message});
-        });
+            res.status(400).json({message: error.details[0].message});
+        }
     }       
 
     public async GetDoctorById(req: Request, res: Response):Promise<void>{

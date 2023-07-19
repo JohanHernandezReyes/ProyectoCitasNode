@@ -1,6 +1,7 @@
 import { DeleteInfoError, PatientCreationError, RecordNotFoundError, UpdateInfoError } from '../../../config/customErrors';
 import {Paciente, newPaciente} from './model';
 import { PacienteRepository } from './repository';
+import logger from '../../../utils/logger';
 
 export interface PatientService{
     //getAllPatients():Paciente[];
@@ -78,6 +79,7 @@ export class PatientServiceImp implements PatientService{
                 return updatedPatient;
             }    
         }catch(error){
+            logger.error(error.message);
             throw new UpdateInfoError(`${error}`);
         }
     } 
@@ -91,6 +93,7 @@ export class PatientServiceImp implements PatientService{
                 this.patientRepository.DeletePatient(id);
             }    
         }catch(error){
+            logger.error(error.message);
             throw new DeleteInfoError(`${error}`);
         }
     } 

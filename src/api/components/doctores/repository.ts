@@ -21,7 +21,7 @@ export class doctorRepository {
             return DoctorX;
         }
         catch(error){
-            throw new RecordNotFoundError(`Error al consultar el doctor especificado: ${error.message}`)
+            throw new RecordNotFoundError(`Error al consultar el doctor especificado: ${error.message}`, "doctores")
         }
     }
 
@@ -40,7 +40,7 @@ export class doctorRepository {
             await db('doctores').where({id_doctor:id}).update(updates);
         }
         catch(error){
-            throw new UpdateInfoError(`Error al actualizar la info del doctor: ${error.message}`)
+            throw new UpdateInfoError(`Error al actualizar la info del doctor: ${error.message}`, "doctores")
         }
     }
 
@@ -49,7 +49,7 @@ export class doctorRepository {
             await db('doctores').where({id_doctor:id}).del();
         }
         catch(error){
-            throw new DeleteInfoError(`Error al eliminar el doctor especificado: ${error.message}`)
+            throw new DeleteInfoError(`Error al eliminar el doctor especificado: ${error.message}`, "doctores")
         }
     }
 }

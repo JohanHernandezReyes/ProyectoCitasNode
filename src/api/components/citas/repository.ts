@@ -21,7 +21,7 @@ export class citaRepository {
             return CitaX;
         }
         catch(error){
-            throw new RecordNotFoundError(`Error al consultar la cita especificada: ${error.message}`)
+            throw new RecordNotFoundError(`Error al consultar la cita especificada: ${error.message}`, "citas")
         }
     }
 
@@ -41,7 +41,7 @@ export class citaRepository {
             await db('citas').where({id_cita:id}).update(updates);
         }
         catch(error){
-            throw new UpdateInfoError(`Error al actualizar la info de la cita: ${error.message}`)
+            throw new UpdateInfoError(`Error al actualizar la info de la cita: ${error.message}`, "citas")
         }
     }
 
@@ -50,7 +50,7 @@ export class citaRepository {
             await db('citas').where({id_cita:id}).del();
         }
         catch(error){
-            throw new DeleteInfoError(`Error al eliminar la cita especificada: ${error.message}`)
+            throw new DeleteInfoError(`Error al eliminar la cita especificada: ${error.message}`, "citas")
         }
     }
 }

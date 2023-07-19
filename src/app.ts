@@ -1,7 +1,6 @@
 import express, {Request, Response} from 'express'
 import logger from './utils/logger';
 import routes from './api/routes'
-import { Console } from 'winston/lib/winston/transports';
 import {ErrorHandler} from './../middleware/ErrorHandler';
 
 const app = express();

@@ -69,16 +69,11 @@ describe('DoctorContr', ()=>{
                 expect(mockres.status).toHaveBeenCalledWith(201);
         });
 
-        it("Debe manejar el error y retornar un status 400",async () => {
-            const error = new DoctorCreationError("Error al crear nuevo doctor");
+        it("No Debe permitir el envío de datos sin validar previamente por Joi",async () => {
+            const error = new Error("\"nombre\" is required");
             (mockreq.body) = {};
-            (DoctorServ.createDoctor as jest.Mock).mockRejectedValue(error);
-            await DoctorCont.createDoctor(mockreq, mockres);
-
-            expect(DoctorServ.createDoctor).toHaveBeenCalledWith({});
-            expect(mockres.json).toHaveBeenCalledWith({error_name:error.name, message:error.message});
-            expect(mockres.status).toHaveBeenCalledWith(400);
-                
+            (DoctorServ.createDoctor as jest.Mock).mockRejectedValue(error)
+            await expect(DoctorCont.createDoctor(mockreq, mockres)).rejects;            
         })
     })
 

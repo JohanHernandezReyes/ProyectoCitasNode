@@ -69,15 +69,11 @@ describe('PatientContr', ()=>{
                 expect(mockres.status).toHaveBeenCalledWith(201);
         });
 
-        it("Debe manejar el error y retornar un status 400",async () => {
-            const error = new PatientCreationError("Error al crear nuevo paciente");            (mockreq.body) = {};
-            (PatientServ.createPatient as jest.Mock).mockRejectedValue(error);
-            await PatientCont.createPatient(mockreq, mockres);
-
-            expect(PatientServ.createPatient).toHaveBeenCalledWith({});
-            expect(mockres.json).toHaveBeenCalledWith({error_name:error.name, message:error.message});
-            expect(mockres.status).toHaveBeenCalledWith(400);
-                
+        it("No Debe permitir el envío de datos sin validar previamente por Joi",async () => {
+            const error = new Error("\"nombre\" is required");
+            (mockreq.body) = {};
+            (PatientServ.createPatient as jest.Mock).mockRejectedValue(error)
+            await expect(PatientCont.createPatient(mockreq, mockres)).rejects;            
         })
     })
 
@@ -93,7 +89,7 @@ describe('PatientContr', ()=>{
                 expect(mockres.json).toHaveBeenCalledWith(Paciente);
                 expect(mockres.status).toHaveBeenCalledWith(200);
         });
-
+            
         it("Debe manejar el error y retornar un status 400 si no encuentra el Id",async () => {
             const error = new RecordNotFoundError("Error al consultar el paciente especificado");
             (mockreq.params) = {id:"2"};

@@ -43,23 +43,23 @@ class AppointmentCreationError extends Error{
 
 
 class RecordNotFoundError extends Error{
-    constructor(message:string){
+    constructor(message:string, component_name?:string){
         super(message);
-        this.name = "RecordNotFoundError";
+        this.name = "RecordNotFoundError from the entity "+component_name;
     }
 }
 
 class UpdateInfoError extends Error{
-    constructor(message:string){
+    constructor(message:string, component_name?:string){
         super(message);
-        this.name = "UpdateInfoError";
+        this.name = "UpdateInfoError in the entity "+component_name;
     }
 }
 
 class DeleteInfoError extends Error{
-    constructor(message:string){
+    constructor(message:string, component_name?:string){
         super(message);
-        this.name = "DeleteInfoError";
+        this.name = "DeleteInfoError in the entity "+component_name;
     }
 }
 

@@ -12,7 +12,7 @@ const PatientCont:PatientController = new PatientContr(PatientService);
 router.get('/list', PatientCont.getAllPatients.bind(PatientCont));
 router.post('/create', PatientCont.createPatient.bind(PatientCont));
 router.get('/:id', PatientCont.GetPatientById.bind(PatientCont));
-router.put('/:id', PatientCont.UpdatePatient.bind(PatientCont));
-router.delete('/:id', PatientCont.DeletePatient.bind(PatientCont));
+router.put('/update/:id', PatientCont.UpdatePatient.bind(PatientCont));
+router.delete('/delete/:id', PatientCont.DeletePatient.bind(PatientCont));
 
 export default router;

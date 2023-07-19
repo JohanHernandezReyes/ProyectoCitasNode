@@ -2,7 +2,8 @@ import {Knex} from 'knex';
 
 export async function up(knex:Knex):Promise<void>{
     await knex.raw(
-        `ALTER TABLE citas RENAME COLUMN identif_paciente TO identif; `
+        `ALTER TABLE citas RENAME COLUMN identif TO identif_paciente;
+         ALTER TABLE citas DROP COLUMN especialidad;`
     )
 }
 

@@ -18,8 +18,8 @@ const citaCont:CitaController = new CitaContr(CitaService);
 router.get('/list', citaCont.getAllAppointments.bind(citaCont));
 router.post('/create', citaCont.createAppointment.bind(citaCont));
 router.get('/:id', citaCont.GetAppointmentById.bind(citaCont));
-router.put('/:id', citaCont.UpdateAppointment.bind(citaCont));
-router.delete('/:id', citaCont.DeleteAppointment.bind(citaCont));
+router.put('/update/:id', citaCont.UpdateAppointment.bind(citaCont));
+router.delete('/delete/:id', citaCont.DeleteAppointment.bind(citaCont));
 
 
 export default router;

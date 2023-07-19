@@ -20,7 +20,7 @@ export class PacienteRepository {
             return PacienteX;
         }
         catch(error){
-            throw new RecordNotFoundError(`Error al consultar el paciente especificado: ${error.message}`)
+            throw new RecordNotFoundError(`Error al consultar el paciente especificado: ${error.message}`, "pacientes")
         }
     }
 
@@ -31,7 +31,7 @@ export class PacienteRepository {
             return PacienteX;
         }
         catch(error){
-            throw new RecordNotFoundError(`Error al consultar el paciente especificado: ${error.message}`)
+            throw new RecordNotFoundError(`Error al consultar el paciente especificado: ${error.message}`, "pacientes")
         }
     }    
     
@@ -51,7 +51,7 @@ export class PacienteRepository {
             await db('pacientes').where({id_paciente:id}).update(updates);
         }
         catch(error){
-            throw new UpdateInfoError(`Error al actualizar la info del paciente: ${error.message}`)
+            throw new UpdateInfoError(`Error al actualizar la info del paciente: ${error.message}`, "pacientes")
         }
     }
 
@@ -60,7 +60,7 @@ export class PacienteRepository {
             await db('pacientes').where({id_paciente:id}).del();
         }
         catch(error){
-            throw new DeleteInfoError(`Error al eliminar el paciente especificado: ${error.message}`)
+            throw new DeleteInfoError(`Error al eliminar el paciente especificado: ${error.message}`, "pacientes")
         }
     }
 }
