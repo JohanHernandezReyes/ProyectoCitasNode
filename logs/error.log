@@ -602,3 +602,42 @@ Categoria: error, Hora de evento:18/7/2023, 7:10:18 p. m., tag:Log de evento, m
 Categoria: error, Hora de evento:18/7/2023, 7:10:18 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
 Categoria: error, Hora de evento:18/7/2023, 7:10:18 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
 Categoria: error, Hora de evento:18/7/2023, 7:10:18 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: error, Hora de evento:18/7/2023, 10:16:17 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: error, Hora de evento:18/7/2023, 10:16:17 p. m., tag:Log de evento, mensaje:"nombre" is required
+Categoria: error, Hora de evento:18/7/2023, 10:16:17 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: error, Hora de evento:18/7/2023, 10:16:17 p. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 10:16:17 p. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 10:16:19 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: error, Hora de evento:18/7/2023, 10:16:19 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: error, Hora de evento:18/7/2023, 10:16:19 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: error, Hora de evento:18/7/2023, 10:16:19 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: error, Hora de evento:18/7/2023, 10:16:19 p. m., tag:Log de evento, mensaje:"nombre" is required
+Categoria: error, Hora de evento:18/7/2023, 10:16:19 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: error, Hora de evento:18/7/2023, 10:16:19 p. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 10:16:19 p. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 10:20:36 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: error, Hora de evento:18/7/2023, 10:20:36 p. m., tag:Log de evento, mensaje:"nombre" is required
+Categoria: error, Hora de evento:18/7/2023, 10:20:36 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: error, Hora de evento:18/7/2023, 10:20:36 p. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 10:20:36 p. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 10:20:38 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: error, Hora de evento:18/7/2023, 10:20:38 p. m., tag:Log de evento, mensaje:"nombre" is required
+Categoria: error, Hora de evento:18/7/2023, 10:20:38 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: error, Hora de evento:18/7/2023, 10:20:38 p. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 10:20:38 p. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 10:20:38 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: error, Hora de evento:18/7/2023, 10:20:38 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: error, Hora de evento:18/7/2023, 10:20:38 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada
+Categoria: error, Hora de evento:18/7/2023, 10:21:27 p. m., tag:Log de evento, mensaje:Error consultando la lista de doctores
+Categoria: error, Hora de evento:18/7/2023, 10:21:27 p. m., tag:Log de evento, mensaje:"nombre" is required
+Categoria: error, Hora de evento:18/7/2023, 10:21:27 p. m., tag:Log de evento, mensaje:Error al consultar el doctor especificado
+Categoria: error, Hora de evento:18/7/2023, 10:21:27 p. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 10:21:27 p. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 10:21:26 p. m., tag:Log de evento, mensaje:Error consultando la lista de pacientes
+Categoria: error, Hora de evento:18/7/2023, 10:21:26 p. m., tag:Log de evento, mensaje:"nombre" is required
+Categoria: error, Hora de evento:18/7/2023, 10:21:26 p. m., tag:Log de evento, mensaje:Error al consultar el paciente especificado
+Categoria: error, Hora de evento:18/7/2023, 10:21:26 p. m., tag:Log de evento, mensaje:No existe id en la base de datos
+Categoria: error, Hora de evento:18/7/2023, 10:21:26 p. m., tag:Log de evento, mensaje:Error actualizando información
+Categoria: error, Hora de evento:18/7/2023, 10:21:27 p. m., tag:Log de evento, mensaje:Error consultando la lista de citas
+Categoria: error, Hora de evento:18/7/2023, 10:21:27 p. m., tag:Log de evento, mensaje:Error al crear nueva cita
+Categoria: error, Hora de evento:18/7/2023, 10:21:27 p. m., tag:Log de evento, mensaje:Error al consultar la cita especificada

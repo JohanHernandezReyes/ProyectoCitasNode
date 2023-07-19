@@ -52,6 +52,7 @@ export class PatientServiceImp implements PatientService{
 
     public async createPatient(patientReq:newPaciente):Promise<Paciente>{
         try{
+            patientReq.created_at = new Date();
             const Paciente:Promise<Paciente>=this.patientRepository.createPatient(patientReq);
             return Paciente; 
         }catch(error){
@@ -74,6 +75,7 @@ export class PatientServiceImp implements PatientService{
             if(!ExistPatient){
                 throw new RecordNotFoundError("No existe el Id en la base de datos");
             }else{
+                updates.updated_at = new Date(); 
                 const updatedPatient = {...ExistPatient, ...updates};
                 this.patientRepository.UpdatePatient(id, updatedPatient);
                 return updatedPatient;

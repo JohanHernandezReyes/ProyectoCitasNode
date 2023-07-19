@@ -68,7 +68,7 @@ describe('CitaService', ()=>{
     //Probar el servicio de crear
     describe('createAppointment', ()=>{
         it("Realiza la creación de una nueva cita", async()=>{
-                const Cita: Cita = {horario:"08:30am", nombre_doctor:"Eduardo Sarmiento", especialidad:'Psicologia', nombre_paciente:"Matias Hernandez", consultorio:701, identif_paciente:"1022221924", createdAt:undefined};
+                const Cita: Cita = {horario:"08:30am", nombre_doctor:"Eduardo Sarmiento", especialidad:'Psicologia', nombre_paciente:"Matias Hernandez", consultorio:701, identif_paciente:"1022221924", created_at:undefined, updated_at:undefined};
                 const doctor: Doctor =  {id_doctor:4, nombre:'Eduardo', apellido:'Sarmiento', especialidad:'Psicologia', consultorio: 701, correo:'edu_sarmiento523@hotmail.com'};
                 const paciente: Paciente = {id_paciente:2, nombre:'Matias', apellido:'Hernandez', identif:'1022221924'};
                 //simular el resultado esperado
@@ -102,7 +102,7 @@ describe('CitaService', ()=>{
     //Probar el servicio de consultar por Id
     describe('GetAppointmentById', ()=>{
         it("Consulta la info de una cita especifico por su Id", async()=>{
-            const Cita: Cita =  {horario:"08:30am", nombre_doctor:"Eduardo Sarmiento", especialidad:'Psicologia', nombre_paciente:"Matias Hernandez", consultorio:701, identif_paciente:"1022221924", createdAt:undefined};
+            const Cita: Cita =  {horario:"08:30am", nombre_doctor:"Eduardo Sarmiento", especialidad:'Psicologia', nombre_paciente:"Matias Hernandez", consultorio:701, identif_paciente:"1022221924", created_at:undefined, updated_at:undefined};
             const doctor: Doctor =  {id_doctor:4, nombre:'Eduardo', apellido:'Sarmiento', especialidad:'Psicologia', consultorio: 701, correo:'edu_sarmiento523@hotmail.com'};
             const paciente: Paciente = {id_paciente:2, nombre:'Matias', apellido:'Hernandez', identif:'1022221924'};
            

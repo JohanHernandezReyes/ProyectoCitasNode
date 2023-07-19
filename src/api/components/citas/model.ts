@@ -5,14 +5,16 @@ export interface Cita{
     nombre_doctor:string,
     identif_paciente:string,
     nombre_paciente: string,
-    createdAt?: Date
+    created_at?: Date,
+    updated_at?:Date
 }
 
 export interface newCita{
     horario:string,
     id_doctor:number,
     identif_paciente:string,
-    createdAt?: Date
+    created_at?: Date,
+    updated_at?:Date
 }
 
 
@@ -24,5 +26,6 @@ export interface ResponseCita{
     nombre_doctor:string,
     identif_paciente:string,
     nombre_paciente: string,
-    createdAt?: Date
+    created_at?: Date,
+    updated_at?:Date
 }

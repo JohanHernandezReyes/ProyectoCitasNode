@@ -114,7 +114,7 @@ describe('PatientService', ()=>{
                 expect(PatientRepo.GetPatientById).toHaveBeenCalledWith(4);
                 expect(Patientbyid).not.toBeNull();
                 
-                const PatientRes: Paciente = {id_paciente:2, nombre:'Matias', apellido:'Hernandez', identif:'1022221924', telefono:7809832};;
+                const PatientRes: Paciente = {id_paciente:2, nombre:'Matias', apellido:'Hernandez', identif:'1022221924', telefono:7809832, updated_at:new Date()};
                 (PatientRepo.UpdatePatient as jest.Mock).mockResolvedValue(paciente);
                 const result = await PatientServ.UpdatePatient(4, pacienteupdates);
                 expect(PatientRepo.UpdatePatient).toHaveBeenCalledWith(4, pacienteupdates);
